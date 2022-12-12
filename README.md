@@ -10,6 +10,18 @@ Automatic Maintenance Switcher is simple software that enables/disables Automati
 
 Automatic Maintenance is automatically executed when there is no operation for a while, but because of heavy load on PC, it inhibits with the operation of heavy processing such as video capture and encoding. By disabling it with this software, you can work on your PC without being inhibited by Automatic Maintenance. In addition, since Automatic Maintenance is a function that assumes that it will be executed every day, it is recommended to manually execute Automatic Maintenance in advance before disabling it, and then disable it after completion.
 
+# 使い方（How to use）
+
+本リポジトリのリリースページからインストーラーをダウンロードして実行します。ソフトのインストールおよび実行には管理者権限が必要です。
+
+Download the installer from the releases page of this repository and run it. Administrative privileges are required to install and run the software.
+
+- <https://github.com/sakasagiken/win32-am-switcher/releases>
+
+スタートメニューから「Automatic Maintenance Switcher」（win32-am-switcher.exe）を起動したら、表示されたメッセージボックスに従って「はい(Y)」もしくは「いいえ(N)」を選択してください。「セキュリティとメンテナンス」のショートカットも用意してあるため、自動メンテナンスの手動実行もすぐに行えます。
+
+After starting "Automatic Maintenance Switcher" (win32-am-switcher.exe) from the start menu, select "Yes" or "No" according to the message box. The "Security and Maintenance" shortcut is also installed, so you can quickly run Automatic Maintenance manually.
+
 # 処理内容（How it works）
 
 以下のレジストリキーに指定したレジストリ値を書き込むことで、自動メンテナンスを無効化しています。逆に有効化する場合は、このレジストリ値は削除されます。
